@@ -6,4 +6,3 @@ A manually curated pan-plant database of ligand-receptor pairs infers cell-cell 
 
 # Collection and processing of scRNA-seq dataset
 
-![图片](https://user-images.githubusercontent.com/11934986/128831835-17380891-2b57-46d3-b925-36b477a6283f.png)
