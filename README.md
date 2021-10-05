@@ -6,10 +6,12 @@ A manually curated pan-plant database of ligand-receptor pairs infers cell-cell 
 
 # Case 1. Significant cell-cell interactions of Heat-Shocked Root Cells in *Arabidopsis thaliana*
 
-![图片](https://user-images.githubusercontent.com/11934986/135822606-90bd49f3-e697-4e39-b2f9-4d85841e8df2.png)
+![图片](https://user-images.githubusercontent.com/11934986/136016102-12e6a465-c532-4daa-83cc-128faa6b5969.png)
+
 
 # Case 2. Construction of intracellular signaling pathway regulated by LR pairs in *Oryza sativa*
 
+![图片](https://user-images.githubusercontent.com/11934986/135822606-90bd49f3-e697-4e39-b2f9-4d85841e8df2.png)
 
 
 
