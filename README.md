@@ -1,4 +1,4 @@
-# PlantPhoneDB (submitting!!!)
+# PlantPhoneDB
 A manually curated pan-plant database of ligand-receptor pairs infers cell-cell communication 
 
 
