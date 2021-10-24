@@ -1,5 +1,5 @@
 
-## [<font color="green">Welcome to PlantPhoneDB</font>](https://jasonxu.shinyapps.io/PlantPhoneDB/)
+## [<font color=green>Welcome to PlantPhoneDB</font>](https://jasonxu.shinyapps.io/PlantPhoneDB/)
 
 <font color="green">Welcome to PlantPhoneDB</font>
 
