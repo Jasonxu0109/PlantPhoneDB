@@ -1,7 +1,7 @@
 
 ## [<font color=green>Welcome to PlantPhoneDB</font>](https://jasonxu.shinyapps.io/PlantPhoneDB/)
 
-<font color="green">Welcome to PlantPhoneDB</font>
+<font color=green> Welcome to PlantPhoneDB </font>
 
 A manually curated pan-plant database of ligand-receptor pairs infers cell-cell communication 
 
