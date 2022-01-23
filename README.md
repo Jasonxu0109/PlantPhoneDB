@@ -32,7 +32,7 @@ Examples on how to use `PlantPhoneDB` package functions can be found as below:
 
 
 ## News - PlantPhoneDB
-The PlantPhoneDB-Toturial coming soon: 2022-01-23 
+The PlantPhoneDB-Tutorial coming soon: 2022-01-23 
 
 Last package update: 2021-10-26
 
