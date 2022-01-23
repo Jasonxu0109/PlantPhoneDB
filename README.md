@@ -1,7 +1,7 @@
 
 ## [Welcome to PlantPhoneDB](https://jasonxu.shinyapps.io/PlantPhoneDB/)
 
-Welcome! This is the documentation for PlantPhoneDB, a manually curated pan-plant database of ligand-receptor pairs infers cell-cell communication. The web sever address is https://jasonxu.shinyapps.io/PlantPhoneDB/ 
+Welcome! This is the documentation for PlantPhoneDB ([see in detail] (https://plantphonedb.readthedocs.io/en/latest/index.html)), a manually curated pan-plant database of ligand-receptor pairs infers cell-cell communication. The web sever address is https://jasonxu.shinyapps.io/PlantPhoneDB/ 
 
 
 ![图片](https://user-images.githubusercontent.com/11934986/135700266-4ba26d9f-0b4c-41bb-a1b8-a06aff12fbd7.png)
