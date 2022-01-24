@@ -1,3 +1,9 @@
+## News - PlantPhoneDB
+The PlantPhoneDB-Tutorial coming soon: 2022-01-23 
+
+Last package update: 2021-10-26
+
+
 
 ## [Welcome to PlantPhoneDB](https://jasonxu.shinyapps.io/PlantPhoneDB/)
 
@@ -31,10 +37,7 @@ Examples on how to use `PlantPhoneDB` package functions can be found as below:
 ![图片](https://user-images.githubusercontent.com/11934986/138243287-f28461ff-0fd1-42d3-8d9c-438f6b464d34.png)
 
 
-## News - PlantPhoneDB
-The PlantPhoneDB-Tutorial coming soon: 2022-01-23 
 
-Last package update: 2021-10-26
 
 
 
