@@ -17,7 +17,7 @@
 
 # -- Project information -----------------------------------------------------
 
-project = 'PlantPhoneDB-Toturial'
+project = 'PlantPhoneDB-Tutorial'
 copyright = '2022, Chaoqun Xu'
 author = 'Chaoqun Xu'
 
