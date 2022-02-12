@@ -1,11 +1,12 @@
 Package: PlantPhoneDB
 Type: Package
-Title: What the Package Does (Title Case)
-Version: 0.1.0
-Author: Who wrote it
-Maintainer: The package maintainer <yourself@somewhere.net>
-Description: More about what it does (maybe more than one line)
-    Use four spaces when indenting paragraphs within the Description.
+Title: PlantPhoneDB in R
+Version: 1.0.0
+Author: Jasonxu
+Maintainer: Jasonxu <xuchaoqun@stu.xmu.edu.cn>
+Description: PlantPhoneDB: a manually curated pan-plant database of ligand-receptor pairs infers cell-cell communication.
 License: What license is it under?
 Encoding: UTF-8
+Depends: R (>= 4.0.2)
 LazyData: true
+RoxygenNote: 7.1.2
