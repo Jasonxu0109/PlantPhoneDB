@@ -1,5 +1,5 @@
 ## News - PlantPhoneDB
-Add help document for functions, such as LRscore, LR_pathway, etc. 2022-02-13 (Version 1.0.0)
+Add help document for functions, such as `LRscore`, `LR_pathway`, etc. 2022-02-13 (Version 1.0.0)
 
 The PlantPhoneDB-Tutorial coming soon: 2022-01-23 
 
