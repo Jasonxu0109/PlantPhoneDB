@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Software &mdash; PlantPhoneDB-Tutorial v1.0.0 documentation</title>
+      <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+      <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+  <!--[if lt IE 9]>
+    <script src="_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+        <script data-url_root="./" id="documentation_options" src="_static/documentation_options.js"></script>
+        <script src="_static/jquery.js"></script>
+        <script src="_static/underscore.js"></script>
+        <script src="_static/doctools.js"></script>
+    <script src="_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="Citation" href="09-Citation.html" />
+    <link rel="prev" title="Case Studies" href="08-Case_studies.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+            <a href="index.html" class="icon icon-home"> PlantPhoneDB-Tutorial
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <p class="caption" role="heading"><span class="caption-text">Overview</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="01-Home.html">Home</a></li>
+<li class="toctree-l1"><a class="reference internal" href="02-Search.html">Search</a></li>
+<li class="toctree-l1"><a class="reference internal" href="03-Explorer.html">Explorer</a></li>
+<li class="toctree-l1"><a class="reference internal" href="04-Download.html">Download</a></li>
+<li class="toctree-l1"><a class="reference internal" href="05-References.html">References</a></li>
+<li class="toctree-l1"><a class="reference internal" href="06-Document.html">Document</a></li>
+<li class="toctree-l1"><a class="reference internal" href="07-About.html">About</a></li>
+<li class="toctree-l1"><a class="reference internal" href="08-Case_studies.html">Case Studies</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Software</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#plantphonedb-installation">PlantPhoneDB installation</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#ligand-receptor-pairs">Ligand-receptor pairs</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="09-Citation.html">Citation</a></li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="index.html">PlantPhoneDB-Tutorial</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="index.html" class="icon icon-home"></a> &raquo;</li>
+      <li>Software</li>
+      <li class="wy-breadcrumbs-aside">
+            <a href="_sources/08-Software.rst.txt" rel="nofollow"> View page source</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="software">
+<h1>Software<a class="headerlink" href="#software" title="Permalink to this headline">¶</a></h1>
+<section id="plantphonedb-installation">
+<h2>PlantPhoneDB installation<a class="headerlink" href="#plantphonedb-installation" title="Permalink to this headline">¶</a></h2>
+<p><strong>PlantPhoneDB</strong> requires R v4.0.2 or greater.</p>
+<p>To install it, the easiest way is to use the <cite>R</cite> package <cite>devtools</cite> and its function <cite>install_github</cite>. If you don’t have all the dependancies needed to use PlantPhoneDB package, run the commands below:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">install</span><span class="o">.</span><span class="n">packages</span><span class="p">(</span><span class="n">c</span><span class="p">(</span><span class="s2">&quot;devtools&quot;</span><span class="p">,</span> <span class="s2">&quot;Seurat&quot;</span><span class="p">,</span> <span class="s2">&quot;tidyverse&quot;</span><span class="p">,</span> <span class="s2">&quot;ggplot2&quot;</span><span class="p">,</span> <span class="s2">&quot;ggsci&quot;</span><span class="p">,</span> <span class="s2">&quot;pheatmap&quot;</span><span class="p">,</span> <span class="s2">&quot;ggpubr&quot;</span><span class="p">,</span> <span class="s2">&quot;RColorBrewer&quot;</span><span class="p">,</span> <span class="s2">&quot;patchwork&quot;</span><span class="p">,</span> <span class="s2">&quot;lsa&quot;</span><span class="p">,</span> <span class="s2">&quot;viridis&quot;</span><span class="p">,</span> <span class="s2">&quot;hrbrthemes&quot;</span><span class="p">,</span> <span class="s2">&quot;circlize&quot;</span><span class="p">,</span> <span class="s2">&quot;chorddiag&quot;</span><span class="p">,</span> <span class="s2">&quot;ggplotify&quot;</span><span class="p">,</span> <span class="s2">&quot;data.table&quot;</span><span class="p">,</span> <span class="s2">&quot;parmigene&quot;</span><span class="p">,</span> <span class="s2">&quot;infotheo&quot;</span><span class="p">,</span> <span class="s2">&quot;igraph&quot;</span><span class="p">,</span> <span class="s2">&quot;cowplot&quot;</span><span class="p">,</span> <span class="s2">&quot;grid&quot;</span><span class="p">,</span> <span class="s2">&quot;dplyr&quot;</span><span class="p">))</span> <span class="c1">##Installs devtools and the PlantPhoneDB CRAN dependancies</span>
+</pre></div>
+</div>
+<p>Then you just have to load <cite>devtools</cite> package and run the command below:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">library</span><span class="p">(</span><span class="n">devtools</span><span class="p">)</span>
+<span class="n">install_github</span><span class="p">(</span><span class="s2">&quot;Jasonxu0109/PlantPhoneDB&quot;</span><span class="p">)</span>
+</pre></div>
+</div>
+<p>Once all the dependencies are downloaded and loaded, you can load the “PlantPhoneDB” package.</p>
+<hr class="docutils" />
+<p>PlantPhoneDB provides some functions using R (version: 4.0.2), such as LRscore, heatmap_count, CCI_circle, CCI_network and LR_pathway, to infer and construct cell-cell communication network and intracellular signaling pathway.</p>
+<p><strong>LRscore</strong></p>
+<img alt="_images/LRscore.png" src="_images/LRscore.png" />
+<p><strong>CCI_circle</strong></p>
+<img alt="_images/CCI_circle.png" src="_images/CCI_circle.png" />
+<p><strong>CCI_network</strong></p>
+<img alt="_images/CCI_network.png" src="_images/CCI_network.png" />
+<p><strong>heatmap_count</strong></p>
+<img alt="_images/heatmap_count.png" src="_images/heatmap_count.png" />
+<p><strong>LR_pathway</strong></p>
+<img alt="_images/LR_pathway.png" src="_images/LR_pathway.png" />
+</section>
+<hr class="docutils" />
+<section id="ligand-receptor-pairs">
+<h2>Ligand-receptor pairs<a class="headerlink" href="#ligand-receptor-pairs" title="Permalink to this headline">¶</a></h2>
+<p><strong>Ligand</strong></p>
+<p>We searched secreted proteins from the <a class="reference external" href="https://www.uniprot.org/">UniProtKB/Swiss-Prot</a> database using the keyword KW-0964.</p>
+<p><strong>Receptor</strong></p>
+<p>We searched plasma membrane proteins from the <a class="reference external" href="https://www.uniprot.org/">UniProtKB/Swiss-Prot</a> database using the keyword KW-1003.</p>
+<p>For example: keyword:”Cell membrane [KW-1003]” AND reviewed:yes AND organism:”Arabidopsis thaliana (Mouse-ear cress) [3702]”</p>
+<img alt="_images/uniprot_LR.png" src="_images/uniprot_LR.png" />
+<p><strong>Interaction Data</strong></p>
+<p>The set of protein interactions were obtained from:</p>
+<ol class="arabic">
+<li><p><a class="reference external" href="https://thebiogrid.org/">BioGRID Version 4.4.199 Released</a>: The BioGRID’s curated set of data have been updated to include interactions, chemical associations, and post-translational modifications (PTM) from 77,459 publications. For <cite>Arabidopsis thalianain</cite>, we extracted protein-protein interactions as below:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">url</span><span class="p">:</span> <span class="n">https</span><span class="p">:</span><span class="o">//</span><span class="n">downloads</span><span class="o">.</span><span class="n">thebiogrid</span><span class="o">.</span><span class="n">org</span><span class="o">/</span><span class="n">BioGRID</span><span class="o">/</span><span class="n">Release</span><span class="o">-</span><span class="n">Archive</span><span class="o">/</span><span class="n">BIOGRID</span><span class="o">-</span><span class="mf">4.4.199</span><span class="o">/</span>
+<span class="n">grep</span> <span class="s1">&#39;taxid:3702&#39;</span> <span class="n">BIOGRID</span><span class="o">-</span><span class="n">ALL</span><span class="o">-</span><span class="mf">4.4.199</span><span class="o">.</span><span class="n">mitab</span><span class="o">.</span><span class="n">txt</span> <span class="o">&gt;</span><span class="n">PPI_arth</span><span class="o">.</span><span class="n">BIOGRID</span>
+<span class="n">awk</span> <span class="o">-</span><span class="sa">F</span><span class="s2">&quot;[: </span><span class="se">\t</span><span class="s2">]&quot;</span> <span class="s1">&#39;/taxid:3702/{print $3,$6}&#39;</span> <span class="n">BIOGRID</span><span class="o">-</span><span class="n">ALL</span><span class="o">-</span><span class="mf">4.4.199</span><span class="o">.</span><span class="n">mitab</span><span class="o">.</span><span class="n">txt</span> <span class="o">&gt;</span><span class="n">PPI_arth</span><span class="o">.</span><span class="n">BIOGRID</span>
+</pre></div>
+</div>
+</li>
+<li><p><a class="reference external" href="https://www.arabidopsis.org/download/index.jsp">Interactome2.0</a>: The TairProteinInteraction is a tab-delimited file containing protein-protein interaction annotations for Arabidopsis genes made by TAIR and BIOGRID. Currently all the annotations in this file are extracted from the literature.</p></li>
+<li><p><a class="reference external" href="https://www.ebi.ac.uk/intact/">IntAct</a>: IntAct provides a free, open source database system and analysis tools for molecular interaction data. All interactions are derived from literature curation or direct user submissions. For <cite>Arabidopsis thalianain</cite>, we extracted protein-protein interactions as below:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">url</span><span class="p">:</span> <span class="n">ftp</span><span class="p">:</span><span class="o">//</span><span class="n">ftp</span><span class="o">.</span><span class="n">ebi</span><span class="o">.</span><span class="n">ac</span><span class="o">.</span><span class="n">uk</span><span class="o">/</span><span class="n">pub</span><span class="o">/</span><span class="n">databases</span><span class="o">/</span><span class="n">intact</span><span class="o">/</span><span class="n">current</span>
+<span class="n">intact</span><span class="o">.</span><span class="n">zip</span><span class="p">:</span> <span class="n">entire</span> <span class="n">contents</span> <span class="n">of</span> <span class="n">the</span> <span class="n">database</span> <span class="ow">in</span> <span class="n">a</span> <span class="n">single</span> <span class="n">file</span>
+<span class="n">grep</span> <span class="s1">&#39;taxid:3702(arath)&#39;</span> <span class="n">intact</span><span class="o">.</span><span class="n">txt</span> <span class="o">&gt;</span><span class="n">intact_arth</span><span class="o">.</span><span class="n">txt</span>
+</pre></div>
+</div>
+</li>
+<li><p><a class="reference external" href="http://plants.proteincomplexes.org/">plant.MAP</a>: This website provides access to protein complexes and stable protein interactions from A pan-plant protein complex map reveals deep conservation and alternate assemblies. Please note: CF-MS scores &gt; 0.5 correspond to ~90% true positive rate; scores &gt; 0.2 correspond to ~50% true positive rate. We kept PPIs if scores &gt; 0.3, data obtained as below:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">url</span><span class="p">:</span> <span class="n">http</span><span class="p">:</span><span class="o">//</span><span class="n">plants</span><span class="o">.</span><span class="n">proteincomplexes</span><span class="o">.</span><span class="n">org</span><span class="o">/</span><span class="n">download</span>
+<span class="n">complete_orthogroup_protID_mapping</span><span class="o">.</span><span class="n">csv</span> <span class="c1"># Translation Table (contains additional mappings used for web site queries)</span>
+<span class="n">allplants_cfms_scores_annot</span><span class="o">.</span><span class="n">txt</span> <span class="c1"># All scored pairwise protein-protein interactions with CF-MS scores (3,076,999 unique pairwise interactions)</span>
+</pre></div>
+</div>
+</li>
+<li><p><a class="reference external" href="https://cn.string-db.org/">STRING v11</a>: protein-protein association networks with increased coverage, supporting functional discovery in genome-wide experimental datasets. In STRING, we chose PPIs if combined score &gt; 600. The combined score is computed by combining the probabilities from the different evidence channels and corrected for the probability of randomly observing an interaction. Data obtained as below:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">url</span><span class="p">:</span> <span class="n">https</span><span class="p">:</span><span class="o">//</span><span class="n">cn</span><span class="o">.</span><span class="n">string</span><span class="o">-</span><span class="n">db</span><span class="o">.</span><span class="n">org</span><span class="o">/</span><span class="n">cgi</span><span class="o">/</span><span class="n">download</span>
+<span class="mf">3702.</span><span class="n">protein</span><span class="o">.</span><span class="n">links</span><span class="o">.</span><span class="n">v11</span><span class="mf">.0</span><span class="o">.</span><span class="n">txt</span><span class="o">.</span><span class="n">gz</span>
+</pre></div>
+</div>
+</li>
+<li><p><a class="reference external" href="https://pubmed.ncbi.nlm.nih.gov/">PubMed</a>: comprises more than 33 million citations for biomedical literature from MEDLINE, life science journals, and online books. We searched and manually reviewed ligand-receptor pairs with the term ‘ligand and receptor’ in the title or abstract in PubMed by text mining.</p></li>
+<li><p>orthologs of human gene: PlantPhoneDB integrates some existing resources (CellTalkDB (Shao <cite>et al</cite>., 2021), SingleCellSignalR and CSOmap (Ren <cite>et al</cite>., 2020)) that contain human ligand-receptor interactions. We did orthologs assignment between Homo sapiens and <cite>Arabidopsis thaliana</cite> proteomes using the InParanoid algorithm (Sonnhammer and Östlund, 2015) to transfer annotations of known PPI.</p></li>
+</ol>
+<hr class="docutils" />
+<p><strong>Computational identification</strong></p>
+<p>We developed a workflow to perform computational identification of secreted proteins, receptor-like kinases (RLKs) or receptor-like proteins (RLPs) and their interaction based on protein sequences.</p>
+<img alt="_images/FigureS2B.png" src="_images/FigureS2B.png" />
+<p>Firstly, the signalP 5.0 software was used for secretory signal peptide prediction. The accuracy of secretome prediction could be further improved by combing signalP 5.0 with other software, including Phobius, TMHMM and TargetP, etc. Therefore, a predicted protein that have a secretory signal peptide by at least three software, included signalP 5.0 and TMHMM.
+Then, Restrepo-Montoya <cite>et al</cite>. developed a workflow for computational identification of RLK/RLP and their structural domains in legumes. The computational approach is well supported and can be applied on the proteomes of other plant species.
+Lastly, computational prediction of protein-protein interaction using CAMP, a sequence-based deep learning framework for multifaceted prediction of peptide-protein interactions.</p>
+</section>
+</section>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
+        <a href="08-Case_studies.html" class="btn btn-neutral float-left" title="Case Studies" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="09-Citation.html" class="btn btn-neutral float-right" title="Citation" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright 2022, Chaoqun Xu.</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>
