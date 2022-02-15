@@ -33,6 +33,8 @@ Examples on how to use `PlantPhoneDB` package functions can be found as below:
 
 ## Case 1. Significant cell-cell interactions of Heat-Shocked Root Cells in *Arabidopsis thaliana*
 
+[Case1.ipynb](https://github.com/Jasonxu0109/PlantPhoneDB/blob/main/PlantPhoneDB-Tutorial/Case1.ipynb) was used to infer cell-cell communications from scRNA-seq datasets processed by [using_example.ipynb](https://github.com/Jasonxu0109/PlantPhoneDB/blob/main/PlantPhoneDB-Tutorial/using_example.ipynb) .
+
 ![图片](https://user-images.githubusercontent.com/11934986/136016102-12e6a465-c532-4daa-83cc-128faa6b5969.png)
 
 
