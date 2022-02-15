@@ -1,4 +1,6 @@
 ## News - PlantPhoneDB
+A full documentation for PlantPhoneDB is available at https://plantphonedb.readthedocs.io/en/latest/index.html. 2022-02-15
+
 Add help document for functions, such as `LRscore`, `LR_pathway`, etc. 2022-02-13 (Version 1.0.0)
 
 The PlantPhoneDB-Tutorial coming soon: 2022-01-23 
