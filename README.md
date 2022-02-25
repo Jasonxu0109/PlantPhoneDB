@@ -1,5 +1,5 @@
 ## News - PlantPhoneDB
-Developing a Rshiny app for analyzing and visualizing in single cell RNA-seq data 2022-02-25
+Developing a Rshiny app for analyzing and visualizing in single cell RNA-seq data. 2022-02-25
 
 A full documentation for PlantPhoneDB is available at https://plantphonedb.readthedocs.io/en/latest/index.html. 2022-02-15
 
