@@ -1,5 +1,5 @@
 ## News - PlantPhoneDB
-[SCI](https://github.com/Jasonxu0109/SCI)
+[SCI:](https://github.com/Jasonxu0109/SCI) A Single Cell shiny application for Identification of cell-cell communication
 
 Developing a Rshiny app for analyzing and visualizing in single cell RNA-seq data. 2022-02-25
 
