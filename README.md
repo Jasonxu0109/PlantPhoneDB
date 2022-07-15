@@ -1,4 +1,7 @@
 ## News - PlantPhoneDB
+
+PlantPhoneDB: A manually curated pan-plant database of ligand-receptor pairs infers cell-cell communication. (*Plant Biotechnology Journal;  Impact Factor 13.263; accept*)
+
 [PlantSCI:](https://github.com/Jasonxu0109/PlantSCI) A **S**ingle **C**ell shiny application for **I**dentification of cell-cell communication. coming soon: 2022-03-20
 
 Developing a Rshiny app for analyzing and visualizing in single cell RNA-seq data. 2022-02-25
