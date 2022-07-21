@@ -51,7 +51,7 @@ Examples on how to use `PlantPhoneDB` package functions can be found as below:
 
 # Cite
 Please cite the following paper if you used PlantPhoneDB in your research.  
-Qi Song, Jingtao Wang, Ziv Bar-Joseph. scSTEM: Clustering pseudo-time ordered single cell data. **_Genome Biology_**. 2022;23(1):150. 
+
 Xu, C., Ma, D., Ding, Q., Zhou, Y., and Zheng, H.-L. (2022) PlantPhoneDB: A manually curated pan-plant database of ligand-receptor pairs infers cell-cell communication. **_Plant Biotechnol Journal_**.
 
 
