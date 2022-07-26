@@ -52,7 +52,7 @@ Examples on how to use `PlantPhoneDB` package functions can be found as below:
 # Cite
 Please cite the following paper if you used PlantPhoneDB in your research.  
 
-Xu, C., Ma, D., Ding, Q., Zhou, Y., and Zheng, H.-L. (2022) PlantPhoneDB: A manually curated pan-plant database of ligand-receptor pairs infers cell-cell communication. **_Plant Biotechnol Journal_**.
+Xu, C., Ma, D., Ding, Q., Zhou, Y., and Zheng, H.-L. (2022) PlantPhoneDB: A manually curated pan-plant database of ligand-receptor pairs infers cell-cell communication. **_Plant Biotechnol Journal_**, 2022, 20, doi: 10.1111/pbi.13893.
 
 
 
