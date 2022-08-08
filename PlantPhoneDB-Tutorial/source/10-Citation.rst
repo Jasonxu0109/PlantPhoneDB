@@ -4,4 +4,4 @@ Citation
 
 If you use this web sever for your research, please cite our paper:
 
-Chaoqun Xu#, Dongna Ma#, Ying Zhou*, Hai-Lei Zheng*. PlantPhoneDB, a manually curated pan-plant database of ligand-receptor pairs infers cell-cell communication.
+Xu, C., Ma, D., Ding, Q., Zhou, Y., and Zheng, H.-L. (2022) PlantPhoneDB: A manually curated pan-plant database of ligand-receptor pairs infers cell-cell communication. Plant Biotechnol J.
