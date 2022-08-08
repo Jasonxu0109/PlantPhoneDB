@@ -1,5 +1,9 @@
 ## News - PlantPhoneDB
 
+Our article "PlantPhoneDB: A manually curated pan‐plant database of ligand‐receptor pairs infers cell–cell communication" was Published Online. 
+To access the article, please click the following link:
+https://onlinelibrary.wiley.com/doi/10.1111/pbi.13893
+
 PlantPhoneDB R package successfully passed security detection by OSCS.
 
 [![OSCS Status](https://www.oscs1024.com/platform/badge/Jasonxu0109/PlantPhoneDB.svg?size=small)](https://www.oscs1024.com/project/Jasonxu0109/PlantPhoneDB?ref=badge_small)
