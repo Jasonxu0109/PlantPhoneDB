@@ -1,6 +1,7 @@
 ## News - PlantPhoneDB
 
-PlantPhoneDB R package successfully passed security detection by OSCS, 
+PlantPhoneDB R package successfully passed security detection by OSCS.
+
 [![OSCS Status](https://www.oscs1024.com/platform/badge/Jasonxu0109/PlantPhoneDB.svg?size=small)](https://www.oscs1024.com/project/Jasonxu0109/PlantPhoneDB?ref=badge_small)
 
 We provided a new link for some updates about website. The link is https://jasonxu.shinyapps.io/website/. 2022-08-08
