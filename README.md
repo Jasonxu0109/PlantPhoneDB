@@ -1,5 +1,7 @@
 ## News - PlantPhoneDB
 
+The woodland strawberry (Fragaria vesca) leaves single-cell RNA-seq dataset are processing. 2022-08-17
+
 Our article "PlantPhoneDB: A manually curated pan‐plant database of ligand‐receptor pairs infers cell–cell communication" was Published Online. 
 To access the article, please click the following link:
 https://onlinelibrary.wiley.com/doi/10.1111/pbi.13893
