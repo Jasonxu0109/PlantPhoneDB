@@ -1,6 +1,6 @@
 ## News - PlantPhoneDB
 
-Due to an updated version of SCTransform function, we should run `PrepSCTFindMarkers()` before running `FindMarkers()`. So, we updated the corresponding R code ([using_example.ipynb](https://github.com/Jasonxu0109/PlantPhoneDB/blob/main/PlantPhoneDB-Tutorial/using_example.ipynb)). 2022-08-22
+Due to an updated version of SCTransform (‘v2’) function, we should run `PrepSCTFindMarkers()` before running `FindMarkers()`. So, we updated the corresponding R code ([using_example.ipynb](https://github.com/Jasonxu0109/PlantPhoneDB/blob/main/PlantPhoneDB-Tutorial/using_example.ipynb)). 2022-08-22
 
 add marker genes for Fragaria vesca, Populus, Nicotiana attenuata and Lemna minuta. 2022-08-21
 
