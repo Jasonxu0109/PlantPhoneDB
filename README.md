@@ -1,5 +1,7 @@
 ## News - PlantPhoneDB
 
+add marker genes for Fragaria vesca, Populus, Nicotiana attenuata and Lemna minuta. 2022-08-21
+
 The woodland strawberry (Fragaria vesca) leaves single-cell RNA-seq dataset are processing. 2022-08-17
 
 Our article "PlantPhoneDB: A manually curated pan‐plant database of ligand‐receptor pairs infers cell–cell communication" was Published Online. 
