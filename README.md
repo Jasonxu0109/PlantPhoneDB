@@ -1,5 +1,7 @@
 ## News - PlantPhoneDB
 
+Due to an updated version of SCTransform function, we should run `PrepSCTFindMarkers()` before running `FindMarkers()`. So, we updated the corresponding R code (using_example.ipynb). 2022-08-22
+
 add marker genes for Fragaria vesca, Populus, Nicotiana attenuata and Lemna minuta. 2022-08-21
 
 The woodland strawberry (Fragaria vesca) leaves single-cell RNA-seq dataset are processing. 2022-08-17
