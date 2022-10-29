@@ -1,7 +1,6 @@
 ## News - PlantPhoneDB
 
-
-![图片](https://user-images.githubusercontent.com/11934986/198816082-0da2ca75-6047-4ae1-a612-6f597a145698.png)
+![图片](https://user-images.githubusercontent.com/11934986/198816132-e0335929-264b-4512-827b-257981dfcd9e.png)
 
 Due to an updated version of SCTransform (‘v2’) function, we should run `PrepSCTFindMarkers()` before running `FindMarkers()`. So, we updated the corresponding R code ([using_example.ipynb](https://github.com/Jasonxu0109/PlantPhoneDB/blob/main/PlantPhoneDB-Tutorial/using_example.ipynb)). 2022-08-22
 
