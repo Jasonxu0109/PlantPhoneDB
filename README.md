@@ -1,7 +1,6 @@
 ## News - PlantPhoneDB
 
-![图片](https://user-images.githubusercontent.com/11934986/210193898-935a0a85-6cfd-4ed2-8cfb-e4cc7f9ccbbf.png)
-
+![图片](https://user-images.githubusercontent.com/11934986/210193941-a2dd621b-36b5-4ca0-965d-b35addeeb8e8.png)
 
 ![图片](https://user-images.githubusercontent.com/11934986/198816132-e0335929-264b-4512-827b-257981dfcd9e.png)
 
